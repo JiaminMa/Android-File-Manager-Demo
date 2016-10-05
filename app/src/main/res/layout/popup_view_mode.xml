@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mjm="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_shadow"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="@color/colorGray"
+        android:layout_marginTop="20dp"
+        android:layout_width="170dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="视图模式" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+
+        <com.mjm.solid.solidmanager.ui.MyRadioButton
+            android:id="@+id/home_rb_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            mjm:radioCheck="true"
+            mjm:radioImage="@mipmap/ic_view_list_compact_grey"
+            mjm:radioText="列表"></com.mjm.solid.solidmanager.ui.MyRadioButton>
+
+        <com.mjm.solid.solidmanager.ui.MyRadioButton
+            android:id="@+id/home_rb_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            mjm:radioCheck="false"
+            mjm:radioImage="@mipmap/ic_view_grid_grey"
+            mjm:radioText="网格"></com.mjm.solid.solidmanager.ui.MyRadioButton>
+
+        <com.mjm.solid.solidmanager.ui.MyRadioButton
+            android:id="@+id/home_rb_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            mjm:radioCheck="false"
+            mjm:radioImage="@mipmap/ic_photo_grey"
+            mjm:radioText="画廊"></com.mjm.solid.solidmanager.ui.MyRadioButton>
+    </LinearLayout>
+
+    <View
+        android:background="@color/colorGray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:textColor="@color/colorGray"
+        android:layout_marginTop="20dp"
+        android:layout_width="160dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="排序方式" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+
+        <com.mjm.solid.solidmanager.ui.MyRadioButton
+            android:id="@+id/home_rb_sort_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            mjm:radioCheck="true"
+            mjm:radioImage="@mipmap/ic_encoding_grey"
+            mjm:radioText="按名称"></com.mjm.solid.solidmanager.ui.MyRadioButton>
+
+        <com.mjm.solid.solidmanager.ui.MyRadioButton
+            android:id="@+id/home_rb_sort_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            mjm:radioCheck="false"
+            mjm:radioImage="@mipmap/ic_calendar_grey"
+            mjm:radioText="按日期"></com.mjm.solid.solidmanager.ui.MyRadioButton>
+
+        <com.mjm.solid.solidmanager.ui.MyRadioButton
+            android:id="@+id/home_rb_sort_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            mjm:radioCheck="false"
+            mjm:radioImage="@mipmap/ic_sort_size_grey"
+            mjm:radioText="按大小"></com.mjm.solid.solidmanager.ui.MyRadioButton>
+    </LinearLayout>
+
+</LinearLayout>

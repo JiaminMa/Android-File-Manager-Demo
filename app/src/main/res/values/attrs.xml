@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextView">
+        <attr name="folderoption" format="string" />
+    </declare-styleable>
+    <declare-styleable name="RadioButton">
+        <attr name="radioText" format="string" />
+        <attr name="radioCheck" format="boolean" />
+        <attr name="radioImage" format="reference" />
+    </declare-styleable>
+</resources>

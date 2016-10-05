@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_selector"
+    android:id="@+id/list_item_root"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:clickable="false"
+            android:id="@+id/list_item_tv_cannot_visable"
+            android:text="PATH"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:clickable="false"
+            android:id="@+id/list_item_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/round_blue"
+            android:padding="8dp"
+            android:src="@drawable/ic_folder_white" />
+
+        <LinearLayout
+            android:clickable="false"
+            android:id="@+id/list_item_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/list_item_icon"
+            android:orientation="vertical">
+
+            <TextView
+                android:clickable="false"
+                android:id="@+id/list_item_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="File Name"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:clickable="false"
+                    android:id="@+id/list_item_tv_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Path Name"
+                    android:textColor="#9000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:clickable="false"
+                    android:id="@+id/list_item_tv_permission"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="drwxrwxrwx"
+                    android:textColor="#8000"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:clickable="false"
+            android:layout_width="56dp"
+            android:layout_height="1dp"
+            android:background="#00000000" />
+
+        <View
+            android:clickable="false"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="#2000" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/build/intermediates/res/merged/debug/drawable-hdpi-v4/room_selected.png",
+        "source": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/src/main/res/drawable-hdpi/room_selected.png"
+    },
+    {
+        "merged": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_text_color_indicator.xml",
+        "source": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/src/main/res/drawable-hdpi/vpi__tab_text_color_indicator.xml"
+    },
+    {
+        "merged": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/build/intermediates/res/merged/debug/drawable-hdpi-v4/news_tab_item_bg_select.9.png",
+        "source": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/src/main/res/drawable-hdpi/news_tab_item_bg_select.9.png"
+    },
+    {
+        "merged": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_unselected_focused_holo.9.png",
+        "source": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/src/main/res/drawable-hdpi/vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_selected_pressed_holo.9.png",
+        "source": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/src/main/res/drawable-hdpi/vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_unselected_pressed_holo.9.png",
+        "source": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/src/main/res/drawable-hdpi/vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_selected_focused_holo.9.png",
+        "source": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/src/main/res/drawable-hdpi/vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_unselected_holo.9.png",
+        "source": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/src/main/res/drawable-hdpi/vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/build/intermediates/res/merged/debug/drawable-hdpi-v4/vpi__tab_selected_holo.9.png",
+        "source": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/src/main/res/drawable-hdpi/vpi__tab_selected_holo.9.png"
+    }
+]

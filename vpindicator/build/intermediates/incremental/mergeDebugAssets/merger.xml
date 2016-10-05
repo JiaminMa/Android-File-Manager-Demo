@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/src/main/assets"/><source path="/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/src/debug/assets"/></dataSet></merger>

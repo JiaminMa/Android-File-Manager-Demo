@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/iv_my_radio_button"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="false"
+        android:focusable="false"
+        android:background="@mipmap/ic_view_grid_grey" />
+
+    <View
+        android:id="@+id/indicator_my_radio_button"
+        android:layout_width="35dp"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <TextView
+        android:clickable="false"
+        android:focusable="false"
+        android:id="@+id/tv_my_radio_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="网格"
+        android:textColor="@color/colorGray"
+        android:textSize="12sp" />
+</LinearLayout>

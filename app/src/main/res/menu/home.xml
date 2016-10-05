@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/ic_search_white"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSearch"
+        android:title="search" />
+
+    <item
+        android:id="@+id/action_select_all"
+        android:orderInCategory="100"
+        android:title="选择所有"
+        android:icon="@drawable/ic_select_all_grey"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_character"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_info_grey"
+        android:title="属性"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_view_option"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_view_grey"
+        android:title="视图选项"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_filter"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_filter_list_grey"
+        android:title="过滤器"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_folder_option"
+        android:orderInCategory="100"
+        android:title="文件夹选项"
+        android:icon="@drawable/ic_tune_grey"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_operation"
+        android:orderInCategory="100"
+        android:title="操作"
+        android:icon="@drawable/ic_info_grey"
+        app:showAsAction="never"/>
+</menu>

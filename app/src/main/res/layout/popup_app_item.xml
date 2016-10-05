@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mjm="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="1dip"
+    android:background="@drawable/bg_shadow"
+    android:orientation="vertical" >
+
+    <com.mjm.solid.solidmanager.ui.CheckText
+        android:clickable="true"
+        android:id="@+id/ct_display"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mjm:folderoption = "显示隐藏文件"
+        />
+
+    <com.mjm.solid.solidmanager.ui.CheckText
+        android:clickable="true"
+        android:id="@+id/ct_text_pre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mjm:folderoption = "文件夹排前"
+        />
+
+    <com.mjm.solid.solidmanager.ui.CheckText
+        android:clickable="true"
+        android:id="@+id/ct_memory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mjm:folderoption = "记住最后打开的文件夹"
+        />
+
+    <com.mjm.solid.solidmanager.ui.CheckText
+        android:clickable="true"
+        android:id="@+id/ct_folder_size"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mjm:folderoption = "显示文件夹大小"
+        />
+
+    <com.mjm.solid.solidmanager.ui.CheckText
+        android:clickable="true"
+        android:id="@+id/ct_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mjm:folderoption = "显示分组"
+        />
+
+</LinearLayout>

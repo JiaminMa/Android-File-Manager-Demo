@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="存储设备">
+        <menu>
+            <item
+                android:checkable="true"
+                android:id="@+id/nav_root"
+                android:icon="@drawable/ic_lock_white"
+                android:title="根目录" />
+            <item
+                android:checkable="true"
+                android:id="@+id/nav_internal"
+                android:icon="@drawable/ic_phone_white"
+                android:title="内部存储设备" />
+        </menu>
+    </item>
+
+    <item android:title="收藏">
+        <menu>
+            <item
+                android:checkable="true"
+                android:id="@+id/nav_photo"
+                android:icon="@drawable/ic_photo_white"
+                android:title="照片" />
+            <item
+                android:checkable="true"
+                android:id="@+id/nav_audio"
+                android:icon="@drawable/ic_audiotrack_white"
+                android:title="音频" />
+            <item
+                android:checkable="true"
+                android:id="@+id/nav_video"
+                android:icon="@drawable/ic_movie_white"
+                android:title="视频" />
+            <item
+                android:checkable="true"
+                android:id="@+id/nav_app"
+                android:icon="@drawable/ic_android_white"
+                android:title="应用" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/build/intermediates/res/merged/androidTest/debug/color/vpi__light_theme.xml",
+        "source": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/build/intermediates/bundles/debug/res/color/vpi__light_theme.xml"
+    },
+    {
+        "merged": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/build/intermediates/res/merged/androidTest/debug/color/vpi__dark_theme.xml",
+        "source": "/home/mjm/AndroidStudioProjects/SolidManager/vpindicator/build/intermediates/bundles/debug/res/color/vpi__dark_theme.xml"
+    }
+]

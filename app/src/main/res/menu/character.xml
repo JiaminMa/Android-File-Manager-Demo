@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_share_grey"
+        android:id="@+id/character_share"
+        android:orderInCategory="100"
+        android:title="分享"
+        app:showAsAction="never" />
+
+    <item
+        android:icon="@mipmap/ic_bookmark_grey"
+        android:id="@+id/character_add"
+        android:orderInCategory="100"
+        android:title="添加书签"
+        app:showAsAction="never" />
+
+    <item
+        android:icon="@mipmap/ic_shortcut_grey"
+        android:orderInCategory="100"
+        android:id="@+id/character_quick"
+        android:title="添加快捷方式"
+        app:showAsAction="never" />
+    <item
+        android:icon="@mipmap/ic_content_copy_grey"
+        android:orderInCategory="100"
+        android:id="@+id/character_copy"
+        android:title="复制名称"
+        app:showAsAction="never" />
+    <item
+        android:icon="@mipmap/ic_content_copy_grey"
+        android:orderInCategory="100"
+        android:id="@+id/character_copy_path"
+        android:title="复制路径"
+        app:showAsAction="never" />
+</menu>

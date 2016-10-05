@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:text="文件夹选项"
+        android:id="@+id/tv_check_text"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:background="@drawable/mycheckbox"
+        android:button="@null"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_margin="10dp"
+        android:id="@+id/cb_check_text"
+        android:layout_width="28dp"
+        android:layout_height="28dp" />
+</LinearLayout>
