@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:theme="@style/AppTheme.PopupOverlay"
-    tools:context="com.mjm.solid.solidmanager.OperationActivity">
+    tools:context="com.mjm.solid.liquidmanager.OperationActivity">
 
     <android.support.v7.widget.Toolbar
         app:titleTextColor="#fff"

@@ -7,7 +7,7 @@
     android:background="@drawable/bg_shadow"
     android:orientation="vertical" >
 
-    <com.mjm.solid.solidmanager.ui.CheckText
+    <com.mjm.solid.liquidmanager.ui.CheckText
         android:clickable="true"
         android:id="@+id/ct_display"
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
         mjm:folderoption = "显示隐藏文件"
         />
 
-    <com.mjm.solid.solidmanager.ui.CheckText
+    <com.mjm.solid.liquidmanager.ui.CheckText
         android:clickable="true"
         android:id="@+id/ct_text_pre"
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
         mjm:folderoption = "文件夹排前"
         />
 
-    <com.mjm.solid.solidmanager.ui.CheckText
+    <com.mjm.solid.liquidmanager.ui.CheckText
         android:clickable="true"
         android:id="@+id/ct_memory"
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
         mjm:folderoption = "记住最后打开的文件夹"
         />
 
-    <com.mjm.solid.solidmanager.ui.CheckText
+    <com.mjm.solid.liquidmanager.ui.CheckText
         android:clickable="true"
         android:id="@+id/ct_folder_size"
         android:layout_width="match_parent"
@@ -39,7 +39,7 @@
         mjm:folderoption = "显示文件夹大小"
         />
 
-    <com.mjm.solid.solidmanager.ui.CheckText
+    <com.mjm.solid.liquidmanager.ui.CheckText
         android:clickable="true"
         android:id="@+id/ct_group"
         android:layout_width="match_parent"

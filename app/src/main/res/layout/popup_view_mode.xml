@@ -22,7 +22,7 @@
         android:layout_marginLeft="15dp"
         android:orientation="horizontal">
 
-        <com.mjm.solid.solidmanager.ui.MyRadioButton
+        <com.mjm.solid.liquidmanager.ui.MyRadioButton
             android:id="@+id/home_rb_list"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -30,9 +30,9 @@
             android:clickable="true"
             mjm:radioCheck="true"
             mjm:radioImage="@mipmap/ic_view_list_compact_grey"
-            mjm:radioText="列表"></com.mjm.solid.solidmanager.ui.MyRadioButton>
+            mjm:radioText="列表"></com.mjm.solid.liquidmanager.ui.MyRadioButton>
 
-        <com.mjm.solid.solidmanager.ui.MyRadioButton
+        <com.mjm.solid.liquidmanager.ui.MyRadioButton
             android:id="@+id/home_rb_grid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -40,9 +40,9 @@
             android:clickable="true"
             mjm:radioCheck="false"
             mjm:radioImage="@mipmap/ic_view_grid_grey"
-            mjm:radioText="网格"></com.mjm.solid.solidmanager.ui.MyRadioButton>
+            mjm:radioText="网格"></com.mjm.solid.liquidmanager.ui.MyRadioButton>
 
-        <com.mjm.solid.solidmanager.ui.MyRadioButton
+        <com.mjm.solid.liquidmanager.ui.MyRadioButton
             android:id="@+id/home_rb_gallery"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             android:clickable="true"
             mjm:radioCheck="false"
             mjm:radioImage="@mipmap/ic_photo_grey"
-            mjm:radioText="画廊"></com.mjm.solid.solidmanager.ui.MyRadioButton>
+            mjm:radioText="画廊"></com.mjm.solid.liquidmanager.ui.MyRadioButton>
     </LinearLayout>
 
     <View
@@ -74,7 +74,7 @@
         android:layout_marginLeft="15dp"
         android:orientation="horizontal">
 
-        <com.mjm.solid.solidmanager.ui.MyRadioButton
+        <com.mjm.solid.liquidmanager.ui.MyRadioButton
             android:id="@+id/home_rb_sort_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -82,9 +82,9 @@
             android:clickable="true"
             mjm:radioCheck="true"
             mjm:radioImage="@mipmap/ic_encoding_grey"
-            mjm:radioText="按名称"></com.mjm.solid.solidmanager.ui.MyRadioButton>
+            mjm:radioText="按名称"></com.mjm.solid.liquidmanager.ui.MyRadioButton>
 
-        <com.mjm.solid.solidmanager.ui.MyRadioButton
+        <com.mjm.solid.liquidmanager.ui.MyRadioButton
             android:id="@+id/home_rb_sort_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -92,9 +92,9 @@
             android:clickable="true"
             mjm:radioCheck="false"
             mjm:radioImage="@mipmap/ic_calendar_grey"
-            mjm:radioText="按日期"></com.mjm.solid.solidmanager.ui.MyRadioButton>
+            mjm:radioText="按日期"></com.mjm.solid.liquidmanager.ui.MyRadioButton>
 
-        <com.mjm.solid.solidmanager.ui.MyRadioButton
+        <com.mjm.solid.liquidmanager.ui.MyRadioButton
             android:id="@+id/home_rb_sort_size"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -102,7 +102,7 @@
             android:clickable="true"
             mjm:radioCheck="false"
             mjm:radioImage="@mipmap/ic_sort_size_grey"
-            mjm:radioText="按大小"></com.mjm.solid.solidmanager.ui.MyRadioButton>
+            mjm:radioText="按大小"></com.mjm.solid.liquidmanager.ui.MyRadioButton>
     </LinearLayout>
 
 </LinearLayout>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mjm.solid.solidmanager">
+    package="com.mjm.solid.liquidmanager">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".BaseApplication"
+        android:name="com.mjm.solid.liquidmanager.BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".HomeActivity"
+            android:name="com.mjm.solid.liquidmanager.HomeActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -24,15 +24,15 @@
         </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
         <activity
-            android:name=".OperationActivity"
+            android:name="com.mjm.solid.liquidmanager.OperationActivity"
             android:label="操作"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".SettingsActivity"
+            android:name="com.mjm.solid.liquidmanager.SettingsActivity"
             android:label="设置"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".CharacterActivity"
+            android:name="com.mjm.solid.liquidmanager.CharacterActivity"
             android:label=""
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
